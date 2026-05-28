@@ -8,6 +8,8 @@ Bloqueador de anuncios para toda la red doméstica + acceso remoto seguro vía A
 [![Made with: Bash + Python](https://img.shields.io/badge/Made_with-Bash_%2B_Python-blue.svg)]()
 [![Cloud: Azure](https://img.shields.io/badge/Cloud-Microsoft_Azure-0078D4.svg)]()
 
+![Flow diagram](docs/images/flow-diagram.png)
+
 ---
 
 ## Qué hace este proyecto
