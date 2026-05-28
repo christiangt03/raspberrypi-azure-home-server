@@ -1,0 +1,12 @@
+[Unit]
+Description=Run pi-backup daily at 03:00
+Requires=pi-backup.service
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+RandomizedDelaySec=300
+Unit=pi-backup.service
+
+[Install]
+WantedBy=timers.target

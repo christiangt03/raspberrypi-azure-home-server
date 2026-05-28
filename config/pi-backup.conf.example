@@ -1,0 +1,16 @@
+# Credenciales del Storage Account para backups
+# Permisos: 600 (solo root)
+# Ubicacion en sistema: /etc/pi-backup.conf
+
+# Nombre del Storage Account
+STORAGE_ACCOUNT=mystorageaccountname
+
+# Storage Account Key
+# Obtener con:
+#   az storage account keys list \
+#     --account-name <name> -g rg-raspberrypi-arc \
+#     --query "[0].value" -o tsv
+STORAGE_KEY=REPLACE_WITH_YOUR_STORAGE_KEY
+
+# Nombre del container
+CONTAINER=pi-backups

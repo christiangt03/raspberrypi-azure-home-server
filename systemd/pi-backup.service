@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily backup of Raspberry Pi to Azure Blob Storage
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/pi-backup.sh
+User=root
+TimeoutStartSec=1800

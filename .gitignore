@@ -1,0 +1,26 @@
+# Archivos de credenciales (nunca commitear)
+**/pi-monitor.conf
+**/pi-backup.conf
+*.key
+*.pem
+.azure/
+.env
+
+# Logs
+*.log
+
+# Backups locales
+*.tar.gz
+*.tar.bz2
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/

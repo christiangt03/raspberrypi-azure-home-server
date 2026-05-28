@@ -1,0 +1,20 @@
+# Credenciales del workspace de Azure Log Analytics
+# Permisos: 600 (solo root)
+# Ubicacion en sistema: /etc/pi-monitor.conf
+
+# Customer ID del Log Analytics Workspace
+# Obtener con:
+#   az monitor log-analytics workspace show \
+#     -g rg-raspberrypi-arc -n law-raspberrypi \
+#     --query customerId -o tsv
+WORKSPACE_ID=00000000-0000-0000-0000-000000000000
+
+# Primary Shared Key del workspace
+# Obtener con:
+#   az monitor log-analytics workspace get-shared-keys \
+#     -g rg-raspberrypi-arc -n law-raspberrypi \
+#     --query primarySharedKey -o tsv
+WORKSPACE_KEY=REPLACE_WITH_YOUR_PRIMARY_KEY
+
+# Nombre del Log-Type (la tabla en Azure se crea como PiMetrics_CL)
+LOG_TYPE=PiMetrics
