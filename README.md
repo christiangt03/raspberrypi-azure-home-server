@@ -16,12 +16,12 @@ Bloqueador de anuncios para toda la red doméstica + acceso remoto seguro vía A
 
 | Función | Cómo |
 |---|---|
-| 🛡️ Bloquea publicidad y rastreadores en toda la red | Pi-Hole (DNS sinkhole) |
-| 🌐 SSH remoto desde cualquier lugar | Azure Arc (sin abrir puertos en el router) |
-| 📊 Monitoreo en tiempo real (CPU/RAM/disco/temp) | Script Python → Azure Log Analytics |
-| 🔔 Alertas automáticas por email | Azure Monitor + Action Group |
-| 💾 Backups diarios automáticos con retención | Azure Blob Storage + lifecycle policy |
-| 💰 Coste mensual real | ~0,20 € (cubierto por crédito Azure for Students) |
+| Bloquea publicidad y rastreadores en toda la red | Pi-Hole (DNS sinkhole) |
+| SSH remoto desde cualquier lugar | Azure Arc (sin abrir puertos en el router) |
+| Monitoreo en tiempo real (CPU/RAM/disco/temp) | Script Python → Azure Log Analytics |
+| Alertas automáticas por email | Azure Monitor + Action Group |
+| Backups diarios automáticos con retención | Azure Blob Storage + lifecycle policy |
+| Coste mensual real | ~0,20 € (cubierto por crédito Azure for Students) |
 
 ## Hardware y software probado
 
@@ -248,6 +248,6 @@ MIT - ver [LICENSE](LICENSE).
 
 ## Autor
 
-Christian — [LinkedIn](https://www.linkedin.com/in/) — [GitHub](https://github.com/)
+Christian Giovanny Torres Garita — [LinkedIn](https://www.linkedin.com/in/christian-giovanny-torres-garita-286855329/) · [GitHub](https://github.com/christiangt03)
 
-¿Te ha servido? Dale una estrella ⭐ al repo. Si encuentras un problema o tienes una mejora, abre un issue o un PR.
+Si encuentras un problema o tienes una mejora, abre un issue o un PR.
